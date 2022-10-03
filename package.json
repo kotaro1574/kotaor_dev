@@ -13,10 +13,12 @@
     "format:prettier": "yarn lint:prettier --write"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.0",
     "@chakra-ui/react": "^2.0.2",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
     "framer-motion": "^6",
+    "graphql": "^16.6.0",
     "jotai": "^1.6.7",
     "next": "12.1.6",
     "oura-api-v2-client": "^1.0.1",
