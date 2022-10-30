@@ -19,11 +19,13 @@
     "@emotion/styled": "^11",
     "framer-motion": "^6",
     "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
     "jotai": "^1.6.7",
     "next": "12.1.6",
     "oura-api-v2-client": "^1.0.1",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "urql": "^3.0.3"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
