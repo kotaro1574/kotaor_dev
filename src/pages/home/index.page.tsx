@@ -1,8 +1,13 @@
 import { NextPageWithLayout } from 'next'
-import { Box } from '@chakra-ui/react'
+import { Container } from '@chakra-ui/react'
+import { PageContent } from '@src/pages/home/index.content'
 
 const Home: NextPageWithLayout = () => {
-  return <Box>chakra</Box>
+  return (
+    <Container py={10}>
+      <PageContent />
+    </Container>
+  )
 }
 
 /**
